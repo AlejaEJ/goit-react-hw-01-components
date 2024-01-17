@@ -73,3 +73,48 @@ code {
 .quantity {
   font-size: 16px;
 }
+
+.statistics {
+  margin: auto;
+  width: 60%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 20px;
+  color: #302e2e;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.stat-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px 34px 10px 34px;
+  border-radius: 8px;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.percentage {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* Color azul para el porcentaje */
+}
